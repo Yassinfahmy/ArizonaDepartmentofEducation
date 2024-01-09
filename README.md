@@ -1,20 +1,10 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This project was started to transform the state school accountability code to an open source language (Python). Efferts were made to increase collaboration with experts on educational data in the field and allow cross- state collaboration with other accountability teams.
+The code was developed into three disticnt libraries.
+* StaticFile is an object oriented data pipline designed to tranform data into a standard shared by all schools and districts accross 
+Arizona. Within the folderr "Construct staticfile" is an example of how to use the staticfile library.
+* StateCode is an object oriented library desgined to manipulate data from the staticfile in order to statistically distinguish schools based on the State Board of Education aprroved accountability plan. The "ADEConnect" file is the orchestrator script that ties all parts together.
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
-
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+# Dashboards
+The folder contains some example analyses that were presented to the state board of education relevnat committee's.
+To view please download the file then open with the browser of your choice.
